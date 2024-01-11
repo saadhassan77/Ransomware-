@@ -1,16 +1,16 @@
-## Ransomware
+# Ransomware
 Fulfilling a requirement for my Fundamentals of Malware Analysis (CY3004) course, this project not only strengthens my grasp of malware behavior and the tactics it employs for persistence, but also sheds light on the inner workings of file encryption and decryption as utilized by malware.
 
-## Description
+# Description
 
 Here's a description of the Python code you provided:
 
-# Purpose:
+## Purpose:
 
 This code creates a ransomware program that encrypts files on a victim's computer and demands a ransom payment for decryption.
-# Key Functions:
+## Key Functions:
 
-# RansomWare class:
+### RansomWare class:
 Manages encryption/decryption keys and file operations.
 Encrypts files with a generated Fernet key.
 Encrypts the Fernet key itself using an RSA public key for added security.
@@ -23,7 +23,7 @@ Forces persistence by adding itself to Windows startup.
 Creates a RansomWare object.
 Initiates encryption, key management, and persistence actions.
 Launches threads to continuously display the ransom note and monitor for the decryption file.
-# Overall Flow:
+### Overall Flow:
 
 The program generates or loads encryption keys.
 It encrypts files with specified extensions (e.g., "txt") and maintains a list of encrypted files.
@@ -40,7 +40,7 @@ It's crucial to handle potential errors and exceptions gracefully in a real-worl
 Consider using more sophisticated encryption and anti-analysis techniques for advanced ransomware.
 
 
-## Working
+# Working
 https://github.com/saadhassan77/Ransomware-/assets/104758930/a32b4e6c-8997-49dc-b331-a7c14dfb77c3
 https://github.com/saadhassan77/Ransomware-/assets/104758930/45ac2861-74cf-48cc-ba0f-aa08961be628
 
