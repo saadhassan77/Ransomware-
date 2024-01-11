@@ -19,7 +19,7 @@ Maintains a list of encrypted files.
 Changes desktop wallpaper to a ransom image.
 Creates a ransom note file with instructions for payment.
 Forces persistence by adding itself to Windows startup.
-# main function:
+### main function:
 Creates a RansomWare object.
 Initiates encryption, key management, and persistence actions.
 Launches threads to continuously display the ransom note and monitor for the decryption file.
@@ -32,7 +32,7 @@ It changes the desktop wallpaper and creates a ransom note.
 It adds itself to Windows startup for persistence.
 It displays the ransom note and monitors for the decryption file.
 If the decryption file is found, it decrypts the Fernet key and uses it to decrypt the files.
-# Important Notes:
+## Important Notes:
 
 This code is for educational and research purposes only. Using it for malicious activities is illegal and unethical.
 The code has several debugging/testing comments that should be removed for actual use.
